@@ -1,0 +1,24 @@
+{
+  "name": "multi-agent-pr-reviewer",
+  "version": "1.0.0",
+  "description": "AI-powered pull request review system using Claude Agent SDK, MCP, and specialized subagents",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/main.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "latest",
+    "dotenv": "latest",
+    "zod": "latest",
+    "zod-to-json-schema": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "tsx": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  }
+}
